@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d303ccbd-5030-4562-b685-6c8881289bac" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/Routes.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/core/api/apiClient.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/core/api/queryClient.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/core/styles/GlobalStyles.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/core/styles/mixins.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/core/styles/styled.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/core/styles/styledTheme.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/definitions/custom.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/definitions/reactTableConfig.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/features/home/components/Home.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/features/main/components/Header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/features/main/components/Main.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/features/main/components/Sidebar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/reportWebVitals.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lerna.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/nest-cli.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/app.controller.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/app.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/app.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/test/app.e2e-spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/test/jest-e2e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/tsconfig.build.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/tsconfig.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2GzXWB9yeUE4QE5GlxXBp8TXqsS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/guvanchavediev/Desktop/development/dimplomaProject",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d303ccbd-5030-4562-b685-6c8881289bac" name="Changes" comment="" />
+      <created>1667392414376</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1667392414376</updated>
+      <workItem from="1667392415553" duration="371000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/server" />
+    </ignored-roots>
+  </component>
+</project>

@@ -1,0 +1,23 @@
+{
+  "name": "dimplomaproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Guvanch99/dimplomaProject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Guvanch99/dimplomaProject/issues"
+  },
+  "homepage": "https://github.com/Guvanch99/dimplomaProject#readme",
+  "dependencies": {
+    "lerna": "^6.0.1"
+  }
+}
