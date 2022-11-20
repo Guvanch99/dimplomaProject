@@ -1,31 +1,27 @@
 import { Outlet } from 'react-router-dom'
 import styled from 'styled-components/macro'
-import React, { FC } from 'react'
-import Sidebar from './Sidebar'
-import Header from './Header'
+import React, { FC, ReactNode } from 'react'
+import Header, { headerHeight } from './Header'
 
 const WrapStyled = styled.div`
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  width: 100%;
   height: 100%;
 `
 
-const SidebarWrapStyled = styled.div`
-  
-`
-
 const OutletWrapStyled = styled.div`
-  background: ${({ theme }) => theme.colors.grey100};
+  height: calc(100% - ${headerHeight}px);
+  background: linear-gradient(63deg, #7EE8FA 0, #EEC0C6 100%);
 `
-
-const Main: FC = () => (
+type TProps = {
+  children?: ReactNode
+}
+const Main: FC<TProps> = ({ children }) => (
   <WrapStyled>
     <Header/>
-    <SidebarWrapStyled>
-      <Sidebar/>
-    </SidebarWrapStyled>
     <OutletWrapStyled>
-      <Outlet/>
+      {children || <Outlet/>}
     </OutletWrapStyled>
   </WrapStyled>
 )

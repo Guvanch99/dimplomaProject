@@ -6,6 +6,8 @@ import Routes from './Routes'
 import { GlobalStyles } from './core/styles/GlobalStyles'
 import { styledTheme } from './core/styles/styledTheme'
 import { queryClient } from './core/api/queryClient'
+import { NotificationProvider } from './features/notifications/state/useNotification'
+import { AuthProvider } from './features/auth/state/useAuthState'
 
 export const ContainerStyled = styled.div`
   width: 100%;
@@ -17,7 +19,11 @@ const App = () => (
     <GlobalStyles />
     <QueryClientProvider client={queryClient}>
       <ContainerStyled>
-        <Routes />
+        <AuthProvider>
+          <NotificationProvider>
+            <Routes />
+          </NotificationProvider>
+        </AuthProvider>
       </ContainerStyled>
     </QueryClientProvider>
   </ThemeProvider>
