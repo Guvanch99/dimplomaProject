@@ -6,12 +6,13 @@ import { useAuthContext } from '../../auth/state/useAuthState'
 
 function useRequestInterceptor() {
   const { authData } = useAuthContext()
-
   useEffect(() => {
     const interceptor = apiClient.interceptors.request.use(
       (config) => {
-        if (config.headers && authData?.token) {
-          config.headers.Authorization = `Bearer ${authData.token!}`
+        console.log('authData0', authData)
+        if (config.headers && authData?.accessToken) {
+          console.log('authData1', authData)
+          config.headers.Authorization = `Bearer ${authData.accessToken!}`
         }
         return config
       },

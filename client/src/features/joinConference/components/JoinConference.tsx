@@ -61,7 +61,7 @@ const JoinConference = () => {
   return (
     <WrapperStyled>
       <CardStyled>
-        <TitleStyled>Create a Conference</TitleStyled>
+        <TitleStyled>Join a Conference</TitleStyled>
         <FormStyled onSubmit={handleSubmit((data) => {
           mutate(data)
         })}>

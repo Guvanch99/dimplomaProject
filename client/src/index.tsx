@@ -8,6 +8,7 @@ import { styledTheme } from './core/styles/styledTheme'
 import { queryClient } from './core/api/queryClient'
 import { NotificationProvider } from './features/notifications/state/useNotification'
 import { AuthProvider } from './features/auth/state/useAuthState'
+import { WebSocketProvider } from './features/main/state/webSocketState'
 
 export const ContainerStyled = styled.div`
   width: 100%;
@@ -21,7 +22,9 @@ const App = () => (
       <ContainerStyled>
         <AuthProvider>
           <NotificationProvider>
-            <Routes />
+            <WebSocketProvider>
+              <Routes />
+            </WebSocketProvider>
           </NotificationProvider>
         </AuthProvider>
       </ContainerStyled>
@@ -30,4 +33,4 @@ const App = () => (
 )
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement)
-root.render(<React.StrictMode><App /></React.StrictMode>)
+root.render(<App />)

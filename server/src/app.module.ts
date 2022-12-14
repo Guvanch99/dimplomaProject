@@ -8,6 +8,8 @@ import * as redisStore from 'cache-manager-redis-store';
 import { UserModel } from './users/model/user.model';
 import { ConferenceModule } from './conference/conference.module';
 import { ConferenceModel } from './conference/model/conference.model';
+import { HistoryModule } from './history/history.module';
+import { HistoryModel } from './history/model/history.model';
 
 @Module({
   imports: [
@@ -27,12 +29,13 @@ import { ConferenceModel } from './conference/model/conference.model';
       username: process.env.PG_USER,
       password: process.env.PG_PASSWORD as unknown as string,
       database: process.env.PG_DATABASE,
-      models: [UserModel, ConferenceModel],
+      models: [UserModel, ConferenceModel, HistoryModel],
       autoLoadModels: true,
     }),
     UsersModule,
     AuthModule,
     ConferenceModule,
+    HistoryModule,
   ],
   controllers: [],
   providers: [],

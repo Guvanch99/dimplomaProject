@@ -1,6 +1,16 @@
-import { Column, DataType, HasMany, Model, Table } from 'sequelize-typescript';
+import {
+  BelongsTo,
+  BelongsToMany,
+  Column,
+  DataType,
+  ForeignKey,
+  HasMany,
+  Model,
+  Table,
+} from 'sequelize-typescript';
 import { IsEmail, IsString, Max, Min } from 'class-validator';
 import { ConferenceModel } from '../../conference/model/conference.model';
+import { HistoryModel } from '../../history/model/history.model';
 
 interface IUserCreationAttrs {
   name: string;
@@ -33,6 +43,10 @@ export class UserModel extends Model<UserModel, IUserCreationAttrs> {
   @Max(12, { message: 'password must be 12' })
   @Min(4, { message: 'password must be 4' })
   password: boolean;
+
   @HasMany(() => ConferenceModel)
-  jobs: ConferenceModel[];
+  conferences: ConferenceModel[];
+
+  @BelongsToMany(() => ConferenceModel, () => HistoryModel)
+  conferenceId: ConferenceModel[];
 }

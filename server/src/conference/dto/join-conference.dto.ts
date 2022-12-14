@@ -1,5 +1,4 @@
-export class CreateConferenceDto {
-  readonly conferenceName: string;
+export class JoinConferenceDto {
   readonly conferenceId: string;
   readonly conferencePassword?: string;
 }

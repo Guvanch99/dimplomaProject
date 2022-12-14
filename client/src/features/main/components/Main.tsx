@@ -13,6 +13,7 @@ const WrapStyled = styled.div`
 const OutletWrapStyled = styled.div`
   height: calc(100% - ${headerHeight}px);
   background: linear-gradient(63deg, #7EE8FA 0, #EEC0C6 100%);
+  overflow: auto;
 `
 type TProps = {
   children?: ReactNode

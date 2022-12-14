@@ -12,10 +12,11 @@ import Register from './features/auth/components/Register'
 import Conference from './features/conference/components/Conference'
 import Home from './features/home/components/Home'
 import JoinConference from './features/joinConference/components/JoinConference'
+import History from './features/history/components/History'
 
 const Routes = () => (
   <BrowserRouter>
-    {/* <ApiClient /> */}
+    <ApiClient />
     <Notifications />
     <RouterRoutes>
       <Route
@@ -31,6 +32,7 @@ const Routes = () => (
         <Route index element={<Home/>}/>
         <Route path="create-conference" element={<CreateConference/>}/>
         <Route path="join-conference" element={<JoinConference/>}/>
+        <Route path="history" element={<History/>}/>
         <Route path="/:id" element={<Conference/>}/>
       </Route>
       <Route path="login" element={<Login />} />

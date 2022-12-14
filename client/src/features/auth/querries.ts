@@ -14,6 +14,7 @@ export const logoutUrl = '/auth/logout'
 async function login(formData: TFormLoginData, setAuthData: (data: TAuthData) => void) {
   try {
     const response = await apiClient.post<TAuthData>('/auth/login', { ...formData })
+    console.log('res', response.data)
     setAuthData(response.data)
   } catch (err: any) {
     throw new Error('Something went wrong')
@@ -23,6 +24,7 @@ async function login(formData: TFormLoginData, setAuthData: (data: TAuthData) =>
 async function register(formData: TFormRegisterData, setAuthData: (data: TAuthData) => void) {
   try {
     const response = await apiClient.post<TAuthData>('/auth/register', { ...formData })
+    console.log('res', response.data)
     setAuthData(response.data)
   } catch (err: any) {
     throw new Error('Something went wrong')
